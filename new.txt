@@ -1,0 +1,130 @@
+<main>  
+  <!-- top section begins-->
+  <div id="background" class="container-fluid main-section" >
+    <div id="top-div" class="row">
+      <div class="col-md-6 col-lg-4 text-left align-self-center">
+        <h1>Heading Aligned Left in the Middle</h1>
+      </div>
+    </div>
+  </div>
+   <!-- top section ends-->
+   
+  <!-- our reputation section begins-->
+  <div id="our-reputation"  class="container-fluid">
+    <h1 class="text-center my-5">Our Reputation</h1>
+    <div class="row">
+      <div class="col-md-4 ">
+        <div class="card mb-3">
+          <div class="card-body">
+            <i class="fa-brands fa-teamspeak" style="color: #daa520; width: 200px"></i>
+            <h5 class="card-title">Award-Winning Service</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body">
+            <i class="fa-sharp fa-solid fa-people-group " style="color: #daa520"></i>
+            <h5 class="card-title">Secure Transactions</h5>
+            <p class="card-text">Suspendisse potenti. Fusce rhoncus vestibulum lacus at efficitur.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body">
+            <i class="fa-solid fa-compass-drafting" style="color: #daa520;"></i>
+            <h5 class="card-title">Customer Satisfaction</h5>
+            <p class="card-text">Donec interdum faucibus enim sit amet sagittis. Nulla tempus purus auctor mauris aliquet euismod.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- our reputation section ends-->
+    
+    
+      <!-- about us begins-->
+
+
+  <div id="about us" class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/pexels-david-underland-3610042.jpg" alt="Image" class="img-fluid">
+      </div>
+      <div class="col-md-6 d-flex align-items-center">
+        <div>
+          <h1>About Us</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id arcu ac dolor iaculis ullamcorper eget quis justo. Sed at lorem tellus. </p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- about-->
+
+  <div id="services" class="container-fluid sm-flex lg-flex">
+    <h2>Cards</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><u>Card 1</u></h5>
+            <p class="card-text"><i class="fas fa-star"></i> Icon 1 Label</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><u>Card 2</u></h5>
+            <p class="card-text"><i class="fas fa-heart"></i> Icon 2 Label</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><u>Card 3</u></h5>
+            <p class="card-text"><i class="fas fa-flag"></i> Icon 3 Label</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><u>Card 4</u></h5>
+            <p class="card-text"><i class="fas fa-thumbs-up"></i> Icon 4 Label</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><u>Card 5</u></h5>
+            <p class="card-text"><i class="fas fa-comment"></i> Icon 5 Label</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><u>Card 6</u></h5>
+            <p class="card-text"><i class="fas fa-share"></i> Icon 6 Label</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+width: 100%;
+  height: 100vh;
+  background-color: rgba(137, 177, 177, 0.178);
+  position: absolute;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-around;
+  filter: opacity(0.5);
