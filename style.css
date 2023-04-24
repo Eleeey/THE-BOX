@@ -1,52 +1,14 @@
-*{
-  border: 1px solid black;
-  box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif
+@media only screen and (max-width:595px){
+  
 }
-/* navbar */
-nav{
-  width: 100vw
+@media only screen and (min-width: 600px){
 }
-#logo{
-  position: relative;
-  left: -8rem
-}
-#navbarNav{
-  transform: translateX(6rem);
-  margin-left: 2rm;
-}
-ul li a{
-  margin-left: 1rem
-}
-/* navbar ends */
+@media only screen and (min-width: 768px){
 
-#top-div{
-  background: linear-gradient(to right,rgba(255,255,255,0.7), rgba(0,0,0,0)), url("pexels-expect-best-323772.jpg");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 30rem ;
 }
-.card-body{
-  display: flex;
-  flex-direction: column;
+@media only screen and (min-width:889px){
+
 }
-.card-body i{
-  border: 10px solid white;
-  font-size: 4rem;
-  text-align: center
-}
-@media only screen and (max-width:768px){
-  #logo{
-    left: 0
-  }
-  #navbarNav{
-    transform: translateX(0)
-  }
-  ul{
-    position: relative
-  }
-  ul li a{
-    margin: 0
-  }
+@media only screen and (min-width:1200px){
+
 }
